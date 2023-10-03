@@ -1,0 +1,46 @@
+#trading {
+  padding-top: 150px;
+}
+#trading h1 {
+  color: var(--White, #FFF);
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#trading .trading {
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#trading .trading--img img {
+  width: 600px;
+}
+#trading .trading--title h2 {
+  color: var(--Blue, #29C5F6);
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -20px;
+  padding-bottom: 15px;
+}
+#trading .trading--title div {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+#trading .trading--title div p {
+  color: var(--White, #FFF);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=trading.css.map */

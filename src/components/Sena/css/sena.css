@@ -1,0 +1,69 @@
+#sena {
+  padding-top: 130px;
+}
+#sena h1 {
+  font-family: Inter sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  padding-bottom: 15px;
+}
+#sena p {
+  font-family: Inter sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+#sena .sena {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sena .sena--block {
+  width: 1100px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 0.5px solid var(--Div-Grad, #88D3FD);
+  background: linear-gradient(269deg, rgba(25, 44, 61, 0.48) 3.53%, rgba(14, 44, 71, 0.48) 101.76%);
+  box-shadow: 0 0 24px 0 rgba(255, 255, 255, 0.06) inset;
+  backdrop-filter: blur(24px);
+  transition: 0.6s;
+}
+#sena .sena--block:hover {
+  border: none;
+  background: transparent;
+}
+#sena .sena--block__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#sena .sena--block__flex .flex1 {
+  margin-top: 30px;
+}
+#sena .sena--block__flex .flex1 h4 {
+  color: var(--Blue, #29C5F6);
+  /* Body txt */
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+#sena .sena--block__flex .flex1 p {
+  color: #FFF;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=sena.css.map */

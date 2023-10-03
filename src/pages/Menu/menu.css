@@ -1,0 +1,67 @@
+.menu {
+    padding-top: 30px;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 50px;
+    left: 0;
+    transform: translateX(-130%);
+    transition: .3s;
+}
+.menu.active {
+    transform: translateX(0);
+
+}
+.blur {
+    width: 100vw;
+    height: 100vh;
+    left: 30%;
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+.menu--content {
+    padding-top: 30px;
+    width: 30%;
+    height: 100%;
+    background: var(--Dark-Blue, #0D141E);
+    transition: .4s;
+}
+
+.almaz  {
+    display: flex;
+    flex-direction: column;
+
+}
+.almaz a {
+    padding: 20px 0;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    transition: .4s;
+    margin-left: 20px;
+}
+.almaz a:hover {
+    text-decoration: underline red;
+}
+
+
+
+
+.block {
+    display:flex;
+    align-items: center;
+
+}
+.block div {
+    margin: 0 15px;
+}
+@media screen and (max-width: 768px){
+    .menu--content {
+        width: 100%;
+    }
+}

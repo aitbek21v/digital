@@ -1,0 +1,64 @@
+#usluga {
+  padding-top: 100px;
+}
+#usluga h1 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: white;
+  padding-bottom: 15px;
+  font-family: Inter sans-serif;
+}
+#usluga p {
+  font-family: Inter sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  line-height: normal;
+}
+#usluga .usluga {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#usluga .usluga--block {
+  border-radius: 4px;
+  border: 1px solid var(--Div-Grad, #88D3FD);
+  width: 350px;
+  height: 370px;
+  gap: 25px;
+  transition: 0.5s;
+}
+#usluga .usluga--block:hover {
+  transform: scale(1.1);
+  background: transparent;
+}
+#usluga .usluga--block h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: white;
+  margin-top: 40px;
+  margin-left: 50px;
+  padding-bottom: 23px;
+}
+#usluga .usluga--block div {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  padding: 10px 0;
+}
+#usluga .usluga--block div h5 {
+  color: var(--Blue, #29C5F6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=uslugi.css.map */

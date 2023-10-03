@@ -1,0 +1,26 @@
+#footer {
+  padding-top: 100px;
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--icons {
+      display: flex;
+      align-items: center;
+      img  {
+        padding: 0 15px;
+      }
+    }
+
+  }
+  p {
+    color: var(--Medium-Glue, #465A79);
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+  }
+}

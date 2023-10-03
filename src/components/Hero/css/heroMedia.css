@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+  #hero .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #hero .hero--container .animated-image {
+    margin-top: 60px;
+    animation: moveImage 5s;
+  }
+}
+
+/*# sourceMappingURL=heroMedia.css.map */

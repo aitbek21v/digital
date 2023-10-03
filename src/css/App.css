@@ -1,0 +1,16 @@
+@import url("@fontsource/inter");
+body {
+  background: var(--Dark-Blue, #0D141E);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=App.css.map */
